@@ -17,6 +17,6 @@ export default {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ["light"], // Set hanya tema terang
+    themes: ["light"], 
   }
 } satisfies Config;
