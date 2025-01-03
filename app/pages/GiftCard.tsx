@@ -44,7 +44,7 @@ const GiftCard = () => {
             const reader = new FileReader();
             reader.onload = () => {
                 setFormData({ ...formData, image: reader.result as string });
-                setErrors((prevErrors) => ({ ...prevErrors, image: '' })); // Clear the error
+                setErrors((prevErrors) => ({ ...prevErrors, image: '' }));
             };
             reader.readAsDataURL(file);
         }
